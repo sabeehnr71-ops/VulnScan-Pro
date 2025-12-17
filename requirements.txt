@@ -1,0 +1,6 @@
+requests
+tabulate
+python-docx
+reportlab
+fpdf
+Pillow

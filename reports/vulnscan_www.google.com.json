@@ -1,0 +1,105 @@
+{
+  "headers": [
+    {
+      "Header": "Strict-Transport-Security",
+      "Status": "Missing",
+      "Description": "Enforces HTTPS and prevents downgrade attacks."
+    },
+    {
+      "Header": "X-Content-Type-Options",
+      "Status": "Missing",
+      "Description": "Prevents MIME-sniffing vulnerabilities."
+    },
+    {
+      "Header": "X-Frame-Options",
+      "Status": "Present",
+      "Description": "Protects against clickjacking."
+    },
+    {
+      "Header": "X-XSS-Protection",
+      "Status": "Present",
+      "Description": "Mitigates reflected XSS attacks."
+    },
+    {
+      "Header": "Referrer-Policy",
+      "Status": "Missing",
+      "Description": "Controls how much referrer info is sent."
+    },
+    {
+      "Header": "Content-Security-Policy",
+      "Status": "Missing",
+      "Description": "Mitigates XSS and data injection."
+    },
+    {
+      "Header": "Permissions-Policy",
+      "Status": "Missing",
+      "Description": "Restricts browser features like camera, mic, etc."
+    },
+    {
+      "Header": "Cross-Origin-Embedder-Policy",
+      "Status": "Missing",
+      "Description": "Required for cross-origin isolation."
+    },
+    {
+      "Header": "Cross-Origin-Opener-Policy",
+      "Status": "Missing",
+      "Description": "Prevents cross-origin attacks."
+    },
+    {
+      "Header": "Cross-Origin-Resource-Policy",
+      "Status": "Missing",
+      "Description": "Controls resource sharing across origins."
+    },
+    {
+      "Header": "Cache-Control",
+      "Status": "Present",
+      "Description": "Prevents caching sensitive data."
+    }
+  ],
+  "ports": [
+    {
+      "port": 21,
+      "status": "open"
+    },
+    {
+      "port": 22,
+      "status": "closed"
+    },
+    {
+      "port": 23,
+      "status": "closed"
+    },
+    {
+      "port": 25,
+      "status": "closed"
+    },
+    {
+      "port": 53,
+      "status": "closed"
+    },
+    {
+      "port": 80,
+      "status": "open"
+    },
+    {
+      "port": 110,
+      "status": "closed"
+    },
+    {
+      "port": 143,
+      "status": "closed"
+    },
+    {
+      "port": 443,
+      "status": "open"
+    },
+    {
+      "port": 3389,
+      "status": "closed"
+    },
+    {
+      "port": 8080,
+      "status": "closed"
+    }
+  ]
+}
